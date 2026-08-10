@@ -10,6 +10,6 @@ output "cloudfront_url" {
   value = aws_cloudfront_distribution.website.domain_name
 }
 
-ouytput "cloudfront_id" {
+output "cloudfront_id" {
   value = aws_cloudfront_distribution.website.id
 }
